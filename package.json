@@ -1,0 +1,16 @@
+{
+  "name": "get-unicorn",
+  "version": "0.1.0",
+  "description": "Gives an unicorn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unicorn",
+    "ascii",
+    "art"
+  ],
+  "author": "Pedro Blanc",
+  "license": "MIT"
+}
