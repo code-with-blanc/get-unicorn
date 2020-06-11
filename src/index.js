@@ -2,4 +2,11 @@ function emoji() {
   return '🦄';
 };
 
-export { emoji };
+function small() {
+  return `
+  ../
+ /(-\\
+/ /\`-\``;
+};
+
+export { emoji, small };
