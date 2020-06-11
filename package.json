@@ -4,7 +4,8 @@
   "description": "Gives an unicorn",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
   },
   "keywords": [
     "unicorn",
@@ -12,5 +13,9 @@
     "art"
   ],
   "author": "Pedro Blanc",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
